@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muerute.baby</title>
+    <link rel="icon" type="image/x-icon" href="pfp.ico" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-CG0C7jD2zOh6GyR7QxKh++5WUvKigIHk1/66zLmRi+Olf/sE/r2ZwWlQI4JTyKdwI0ATATxZT4zhj+ECAKJjw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="landing-page" class="landingpage">
+        <a id="enter-button">Click to enter</a>
+    </div>
+
+    <div id="main-page" class="profile">
+        <div class="welcometomy">
+            <h1 class="NameBox">Muerute</h1>
+            <div class="fx1"></div>
+        </div>
+
+        <div class="pfp">
+            <img src="pfp.jpg" alt="Profile picture">
+        </div>
+
+        <div class="quotes2">
+            <a href="https://flipd.gg/Muerute" target="_blank">FLIPD: @Muerute</a>
+        </div>
+
+        <div class="quotes3">
+            <a href="https://discord.com/channels/@me" target="_blank">Discord: @ilyashton</a>
+        </div>
+
+        <div class="quotes4">
+            <a href="https://t.me/Muerute" target="_blank">Telegram: @Muerute</a>
+        </div>
+
+        <div class="quotes5">
+            <a href="https://instagram.com/Minami" target="_blank">Instagram: @Minami</a>
+        </div>
+
+        <div class="quotes6">
+            <a href="https://www.tiktok.com/@Muerute" target="_blank">TikTok: @Muerute</a>
+        </div>
+
+        <script>
+            const landingPage = document.getElementById("landing-page");
+            const enterButton = document.getElementById("enter-button");
+            
+            function playMusic() {
+                landingPage.style.display = "none";
+                var audio = new Audio("Paranoid.mp3");
+                audio.volume = 0.02; // set volume to 10%
+                audio.play();
+
+                document.removeEventListener("click", playMusic); // remove event listener after first click
+            }
+
+            enterButton.addEventListener("click", playMusic);
+        </script>
+
+    </div>
+
+</body>
+</html>
