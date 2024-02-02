@@ -1,0 +1,249 @@
+
+body {
+    background-image: url("purpo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: "poppins";
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcometomy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(135, 207, 235, 0);
+    position: relative;
+}
+
+.welcometomy h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(181, 0, 253, 0);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 28px;
+    padding: 8px;
+    text-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    width: 250px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.welcometomy img {
+    width: 17px; /* set the width of the SVG */
+    margin-left: -60px;
+    filter: invert(100%);
+}
+
+.fx1 {
+    background-image: url("sparkle.gif");
+    background-color: rgba(0, 0, 255, 0);
+    z-index: -1; /* puts behind text */
+    width: 100px;
+    height: 27px;
+    position: absolute;
+    top: 32px; /* 32px perfect */
+    margin-right: -3px; /* -3px perfect */
+}
+
+.tooltip:hover::before {
+    content: attr(title);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+.pfp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfp img {
+    width: 250px;
+    border-radius: 125px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    box-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    text-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    margin: -5px;
+    user-select: none;
+}
+
+.quotes2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes2 a {
+    background-color: rgba(0, 0, 255, 0);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-radius: 50px;
+    padding: 8px;
+    width: 250px;
+    box-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    text-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    font-weight: bold;
+    margin: 35px;
+    text-decoration: none;
+}
+
+.quotes3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes3 a {
+    background-color: rgba(0, 0, 255, 0);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-radius: 50px;
+    padding: 8px;
+    width: 250px;
+    box-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    text-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    font-weight: bold;
+    text-decoration: none;
+    margin: -25px;
+}
+
+.quotes4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes4 a {
+    background-color: rgba(0, 0, 255, 0);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-radius: 50px;
+    padding: 8px;
+    width: 250px;
+    box-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    text-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 35px;
+}
+
+.quotes5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes5 a {
+    background-color: rgba(0, 0, 255, 0);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-radius: 50px;
+    padding: 8px;
+    width: 250px;
+    box-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    text-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    font-weight: bold;
+    text-decoration: none;
+    margin: -25px;
+}
+
+.quotes6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes6 a {
+    background-color: rgba(0, 0, 255, 0);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-radius: 50px;
+    padding: 8px;
+    width: 250px;
+    box-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    text-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    font-weight: bold;
+    text-decoration: none;
+    margin: 35px;
+}
+
+.profile {
+    background-color: rgba(0, 0, 255, 0);
+    backdrop-filter: blur(5px);
+    width: 500px;
+    height: 675px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    border-radius: 50px;
+    box-shadow: 10px 10px 15px rgba(245, 245, 245, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landingpage {
+    background-image: url("purpo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.landingpage a {
+    color: whitesmoke;
+    text-shadow: 4px 4px 8px rgba(245, 245, 245, 0.3);
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    text-decoration: none;
+    cursor: pointer;
+}
